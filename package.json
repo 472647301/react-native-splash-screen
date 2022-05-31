@@ -1,7 +1,7 @@
 {
   "name": "@byron-react-native/splash-screen",
   "title": "React Native Splash Screen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native Splash Screen",
   "main": "index.js",
   "files": [
@@ -9,7 +9,9 @@
     "android",
     "index.js",
     "ios",
-    "react-native-splash-screen.podspec"
+    "react-native-splash-screen.podspec",
+    "index.d.ts",
+    "!android/**/build/*"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
